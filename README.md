@@ -1,73 +1,134 @@
-# Welcome to your Lovable project
+# Rehman's Portfolio
 
-## Project info
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🔗 **Live Demo**: [rehman-portfolio-seven.vercel.app](https://rehman-portfolio-seven.vercel.app)
 
-## How can I edit this code?
+## 🚀 Tech Stack
 
-There are several ways of editing your application.
+- **Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Deployment**: Vercel
 
-**Use Lovable**
+## ✨ Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- 🎨 Modern and clean design
+- 📱 Fully responsive layout
+- ⚡ Fast loading with Vite
+- 🎯 Type-safe with TypeScript
+- 🌗 Optimized for performance
+- ♿ Accessible UI components
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js (v18 or higher)
+- npm, pnpm, or bun
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Installation
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone https://github.com/Fazlur4471/Rehman-Portfolio.git
+cd Rehman-Portfolio
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+npm install
+# or
+pnpm install
+# or
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+npm run dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-**Use GitHub Codespaces**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Build for Production
 
-## What technologies are used for this project?
+```bash
+npm run build
+# or
+pnpm build
+# or
+bun run build
+```
 
-This project is built with:
+The build output will be in the `dist` directory.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🧪 Testing
 
-## How can I deploy this project?
+```bash
+npm run test
+# or
+pnpm test
+# or
+bun test
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📁 Project Structure
 
-## Can I connect a custom domain to my Lovable project?
+```
+Rehman-Portfolio/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # React components
+│   ├── pages/       # Page components
+│   ├── lib/         # Utility functions
+│   └── styles/      # Global styles
+├── index.html       # HTML entry point
+└── vite.config.ts   # Vite configuration
+```
 
-Yes, you can!
+## 🎨 Customization
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This portfolio is built with shadcn/ui components and Tailwind CSS, making it easy to customize:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **Colors**: Modify `tailwind.config.ts`
+- **Components**: Update components in `src/components/`
+- **Content**: Edit page content in `src/pages/`
+
+## 📝 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+- `npm run test` - Run tests
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Author
+
+**Rehman**
+
+- GitHub: [@Fazlur4471](https://github.com/Fazlur4471)
+- Portfolio: [rehman-portfolio-seven.vercel.app](https://rehman-portfolio-seven.vercel.app)
+
+## 🙏 Acknowledgments
+
+- Built with [Vite](https://vitejs.dev/)
+- UI components from [shadcn/ui](https://ui.shadcn.com/)
+- Styled with [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+⭐ If you find this portfolio helpful, please consider giving it a star!
